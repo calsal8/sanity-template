@@ -14,7 +14,7 @@ const maybeImage = illustration => {
     );
 
     img = (
-      <img className="w-full md:w-4/5 z-50" src={fluidProps.src} alt={illustration.image.alt} />
+      <img className="w-full md:w-4/5 z-50" src={fluidProps && fluidProps.src} alt={illustration.image.alt} />
     );
   }
   return img;

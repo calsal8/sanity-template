@@ -28,6 +28,12 @@ export default {
         { type: 'infoRows' },
         { type: 'ctaColumns' },
         { type: 'ctaPlug' },
+        {
+          type: 'reference',
+          to: [
+            { type: 'hero' },
+          ]
+        },
       ],
     },
   ],

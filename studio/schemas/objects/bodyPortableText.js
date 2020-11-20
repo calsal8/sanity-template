@@ -7,6 +7,9 @@ import {
   highlightRender,
 } from '../components/PortableTextEditorComponents'
 
+import {instagram} from "./embeds";
+
+
 export default {
   name: 'bodyPortableText',
   type: 'array',
@@ -86,7 +89,7 @@ export default {
       type: 'mainImage',
       options: { hotspot: true }
     },
-    { type: 'instagram' },
+    { type: instagram.name },
     { type: 'videoEmbed' },
     { type: 'math', icon: mathIcon, title: 'Math block' }
   ]

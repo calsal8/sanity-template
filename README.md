@@ -1,6 +1,6 @@
-# The Kitchen Sink Studio
+# The Sanity Template by Rebel and Bird
 
-A “[kitchen sink](https://stackoverflow.com/questions/33779296/what-is-exact-meaning-of-kitchen-sink-in-programming)” is a showcase of APIs and functionality. This is the example project that we at Sanity HQ use for demos. Hence, it will change and evolve over time with new feature releases.
+A [kitchen sink](https://stackoverflow.com/questions/33779296/what-is-exact-meaning-of-kitchen-sink-in-programming) is a showcase of APIs and functionality. This is the example project that we at Sanity HQ use for demos. Hence, it will change and evolve over time with new feature releases.
 
 This starter is great for demo purposes, either to evaluate Sanity for your own use, or when you want to offer it as part of a project for your clients.
 

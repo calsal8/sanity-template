@@ -5,7 +5,12 @@ export default {
   fields: [
     {
       type: 'string',
-      name: 'name'
+      name: 'name',
+      options: {
+        list: [{ title: 'Top wave', value: 'topWave' }, { title: 'Bottom wave', value: 'bottomWave' }],
+        layout: 'radio',
+        direction: 'horizontal'
+      }
     }
   ],
   preview: {
